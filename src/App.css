@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+SC&family=Ubuntu:wght@500&family=Yanone+Kaffeesatz&display=swap');
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  
+  
+  width: 100%;
+  align-items: center;
+   display: flex;
+   flex-direction: row;
+  font-size: calc(12px + 2vmin);
+  margin: 0;
+  position: relative;
+  background-color:   rgb(209, 165, 133);
+}
+.menuWrapper{
+  justify-content: right;
+}
+.menu{
+ 
+  margin-left: 10%;
+  text-decoration: none; 
+  font-family: 'Alegreya SC', serif;
+  color: rgb(254, 251, 247);
+  margin-top: 0.5%;
+}
+.welcome{
+  display:table-row;
+  margin-left: 13%;
+  text-decoration: none; 
+  font-family: 'Alegreya SC', serif;
+  color: rgb(254, 251, 247);
+  margin-top: 0.5%;
+}
+body{
+ color:  rgb(84, 44, 15);
+ background-color:   rgb(254, 251, 247);
+ margin: 0;
+}
+.logoWrapper{
+  margin-top:  0.7%;
+  margin-bottom: 0.5%;
+}
+.logo{
+  width: 55px;
+  height: 55px; 
+  
+}
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
